@@ -1,5 +1,5 @@
 import express from 'express'
-import _blogsService from '../services/_blogsService'
+import _blogsService from '../services/blogsService'
 
 export default class BlogController {
 

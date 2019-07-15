@@ -1,5 +1,4 @@
 import mongoose from 'mongoose'
-import { stringify } from 'querystring';
 let objectId = mongoose.Schema.Types.ObjectId
 
 let _schema = new mongoose.Schema({
