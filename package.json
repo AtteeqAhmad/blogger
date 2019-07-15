@@ -1,0 +1,24 @@
+{
+  "name": "blogger",
+  "version": "1.0.0",
+  "description": "Students will use node, express, mongoose, controllers, services to create a server that persists data to a database. The goal of this project is to build a blog engine for Blogger, the Blog company! We want to be able to create a blog, get all blogs, get blogs by their title(slug), and get all blogs with a given tag. We also want to be able to get a blog by its id, edit a specific blog by its id or delete that blog based on its id. This project consists solely of the back-end(server) side of the application. The front end will be handled for you. However, you must write your routes to accommodate this functionality on the front-end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtteeqAhmad/blogger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtteeqAhmad/blogger/issues"
+  },
+  "homepage": "https://github.com/AtteeqAhmad/blogger#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.4"
+  }
+}
