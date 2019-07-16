@@ -19,7 +19,7 @@ export default class BlogController {
                         return next()
                   }
                   let blogs = await _blogsService.find({ slug: { $in: [req.query.slug] } })
-                  if (!req.query.slug) {
+                  if (!blogs.length) {
                         return res.status(400).send("No blog with title")
                   }
                   res.send(blogs)
